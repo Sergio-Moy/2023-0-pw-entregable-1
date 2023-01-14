@@ -20,6 +20,10 @@ th {
   background-color: #dddddd;
 }
 
+td {
+  background-color: #ffffffaa;
+}
+
 .cambiar-estado {
   background-color: green;
   color: white;
@@ -50,4 +54,9 @@ body {
   padding: 1em;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
+}
+
+.closed {
+  color: #4f4f4f;
+  background-color: #ddddddaa;
 }
