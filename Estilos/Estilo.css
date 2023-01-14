@@ -1,0 +1,149 @@
+/*
+Indice:
+clase_0: hipervinculos
+clase_1: h2, clase_2 y 3: p
+*/
+/* esto solo aplica a todos los que estan dentro de "div" */
+div > .clase_2{
+    font-size: 25px;
+    font-family: 'Macondo', cursive;
+    color: rgb(108, 230, 134);/*color de texto*/
+    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
+}
+h2{
+    font-size: 30px;
+    color: rgb(241, 168, 84);/*color de texto*/
+    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
+}
+.clase_3{
+    font-size: 25px;
+    font-family: 'Macondo', cursive;
+    
+}
+.clase_3, .clase_0, h1{
+    text-align: center;
+    color: white;/*color de texto*/
+    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
+}
+.clase_0{
+  font-size: 20px;
+  text-shadow: 0px 0px 0px black;
+}
+/*Imagen a la derecha de todo*/
+.alinear_der{
+    text-align: right;
+        
+}
+
+/* Poner una imagen como fondo de pantalla*/
+body {
+    background-image: url(fondo-alimentos-dibujados-mano-pasta_23-2148369856.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    background-size: cover;/*para que la imgen cubra toda la pantalla*/
+    /*la linea de abajo se explica en las siguientes lineas
+    background-image: url(fondo-comida-dibujado-mano_52683-2954.webp) no-repeat center center fixed;*/
+    /*
+    background-repeat: no-repeat; para que no repita la imagen, en el caso que fuera muy pequeña
+    background-position: 20% 10%;
+    background-position: 25px 15px;
+    background-position: center center; posiciona la imagen al centro
+    background-attachment: fixed;matiene fija la imagen. Cuando baje en la pagina, no se vera blanco
+    */
+}
+/*Poner una diseño a la tabla
+#Diseño_tabla{
+
+}*/
+
+/* spacing */
+
+table {
+    table-layout: fixed;/*dar a las columnas un tamaño segun el 
+    ancho de sus celdas*/
+    width: 100%;/*La tabla intentara ajustar su contenido (letras)
+    con el espacio rectangular en donde fue ubicado.*/
+    border-collapse: collapse;/*Quitar los bordes de la tabla,
+    mejor conocido como espacios en blaco que rodea la tabla*/
+    
+  } 
+/* typography */
+  
+  
+  thead th {
+    font-family: 'Macondo', cursive;
+  }
+  /* th=encabezado y td=cuerpo
+  letter-spacing=espacio entre letras de una palabra.
+  arbol != a r b o l*/
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  /*Centrar el texto tanto el encabezado como el cuerpo*/
+  tbody td {
+    text-align: center;
+  }
+  /*tfoot es un encabezado pero en la parte inferior de la tabla*/
+  /*
+  tfoot th {
+    text-align: right;
+  }
+  */
+  /*Diseño*/
+  thead {
+    /*imagen gif*/
+    background: url(f8b0d8ba8a7fd9a480f88e9cd347ae6e.gif);
+    color: white;/*color de texto*/
+    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
+  }
+  /*Sombra que se le agrega a la imagen*/
+  thead th {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    
+  }
+  /*Bordado a la tabla*/
+  tr{
+    border: 3px solid rgb(0, 0, 0);
+  }
+  /*Tipo y tamaño de la letra del cuerpo de la tabla*/
+  td{
+    font-size: 25px;
+    color:rgb(248, 179, 31);
+    font-family: 'Macondo', cursive;
+    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
+  }
+  /*Centrar las cajas donde se ingresa el texto*/
+  .centrar{
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
