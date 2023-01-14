@@ -1,3 +1,70 @@
+/*Trabajo*/
+.logorestaurante{
+  width: 200px;
+  height: 200px;
+  display: block;
+margin: auto;
+background-color: black;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid #dddddd;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #dddddd;
+}
+
+td {
+background-color: #ffffffaa;
+}
+
+.cambiar-estado {
+background-color: green;
+color: white;
+border: none;
+padding: 8px 12px;
+cursor: pointer;
+}
+input[type="text"] {
+padding: 0.5em;
+margin-bottom: 1em;
+width: 300px;
+}
+
+input[type="submit"] {
+background-color: blue;
+color: white;
+padding: 0.5em 1em;
+border: none;
+cursor: pointer;
+}
+body {
+background-image: url("imagenes/background_login_restaurante.jpg");
+background-size: cover;
+}
+.form-container {
+width: 500px;
+margin: 0 auto;
+padding: 1em;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+}
+
+.closed {
+color: #4f4f4f;
+background-color: #ddddddaa;
+}
+
+
+
+
 /*
 Indice:
 clase_0: hipervinculos
@@ -37,7 +104,7 @@ h2{
 
 /* Poner una imagen como fondo de pantalla*/
 body {
-    background-image: url(fondo-alimentos-dibujados-mano-pasta_23-2148369856.jpg);
+    background-image: url("/imagenes/fondo-alimentos-dibujados-mano-pasta_23-2148369856.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;    
@@ -97,7 +164,7 @@ table {
   /*Diseño*/
   thead {
     /*imagen gif*/
-    background: url(f8b0d8ba8a7fd9a480f88e9cd347ae6e.gif);
+    background: url("/imagenes/f8b0d8ba8a7fd9a480f88e9cd347ae6e.gif");
     color: white;/*color de texto*/
     text-shadow: 1px 1px 1px black;/*Sombra al texto*/
   }
