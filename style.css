@@ -1,7 +1,53 @@
 .logorestaurante{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: block;
   margin: auto;
   background-color: black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+.cambiar-estado {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+input[type="text"] {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+body {
+  background-image: url("imagenes/background_login_restaurante.jpg");
+  background-size: cover;
+}
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
 }
