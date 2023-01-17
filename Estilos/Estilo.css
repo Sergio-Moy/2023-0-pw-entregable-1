@@ -4,6 +4,29 @@
   src: url(Macondo-Regular.ttf);
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway.ttf);
+}
+
+h2 a{
+  font-family: Raleway;
+  color: #ffffff;
+}
+
+h2 a:link {
+  color: #ffffff;
+}
+
+h2 a:hover {
+  color: #f20fb6;
+  text-decoration: none;
+}
+
+h2 a:active {
+  color: #f29828;
+  text-decoration: none;
+}
 .logorestaurante{
   width: 200px;
   height: 200px;
@@ -18,12 +41,14 @@ border-collapse: collapse;
 
 th, td {
 border: 1px solid #dddddd;
-padding: 8px;
-text-align: left;
+padding: 8px
 }
 
 th {
-background-color: #dddddd;
+background-color: #00000044;
+color: #ffffff;
+text-align: center;
+font-family: Raleway;
 }
 
 td {
@@ -69,7 +94,6 @@ background-color: #ddddddaa;
 
 
 
-
 /*
 Indice:
 clase_0: hipervinculos
@@ -109,20 +133,9 @@ h2{
 
 /* Poner una imagen como fondo de pantalla*/
 body {
-    background-image: url("/imagenes/fondo-alimentos-dibujados-mano-pasta_23-2148369856.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;   
-    background-size: cover;/*para que la imgen cubra toda la pantalla*/
-    /*la linea de abajo se explica en las siguientes lineas
-    background-image: url(fondo-comida-dibujado-mano_52683-2954.webp) no-repeat center center fixed;*/
-    /*
-    background-repeat: no-repeat; para que no repita la imagen, en el caso que fuera muy pequeña
-    background-position: 20% 10%;
-    background-position: 25px 15px;
-    background-position: center center; posiciona la imagen al centro
-    background-attachment: fixed;matiene fija la imagen. Cuando baje en la pagina, no se vera blanco
-    */
+    background-image: url("/imagenes/bg.jpg");
+    background-size: 20%;
+    
 }
 
 /* spacing */
@@ -207,10 +220,30 @@ body {
   box-sizing: border-box;
 }
 
+.topnav a {
+  background-color: #3c268b;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: Raleway;
+  font-size: 15px;
+}
 
+.topnav a:hover {
+  background-color: #f20fb6;
+  color: #ffffff;
+  text-decoration: none;
+}
 
+.topnav .current{
+  background-color: #00000000;
+}
 
-
+.topnav a:active {
+  background-color: #f29828;
+  color: #ffffff
+}
 
 
 
