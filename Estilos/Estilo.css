@@ -9,6 +9,26 @@
   src: url(Raleway.ttf);
 }
 
+div{
+  color: #ffffff;
+}
+
+p{
+  color: #ffffff;
+  font-family: Raleway;
+}
+
+
+body h1 {
+  color: #ffffff;
+  font-family: Raleway;
+}
+
+body h2 {
+  color:#ffffff;
+  font-family: Raleway;
+}
+
 h2 a{
   font-family: Raleway;
   color: #ffffff;
@@ -16,6 +36,12 @@ h2 a{
 
 h2 a:link {
   color: #ffffff;
+}
+
+tr th{
+  text-align: center;
+  font-family: Raleway;
+  font-size: 14px;
 }
 
 h2 a:hover {
@@ -39,20 +65,32 @@ width: 100%;
 border-collapse: collapse;
 }
 
-th, td {
-border: 1px solid #dddddd;
-padding: 8px
+body a{
+  color: #ffffff;
+  font-family: Raleway;
+}
+body a:hover{
+  color: #f20fb6;
+  text-decoration: none;
+}
+body a:active{
+  color: #f29828;
+  text-decoration: none;
 }
 
 th {
-background-color: #00000044;
+background-color: #3c268b88;
 color: #ffffff;
 text-align: center;
 font-family: Raleway;
 }
 
 td {
-background-color: #ffffffaa;
+    background-color: #3c268b88;
+    font-size: 25px;
+    color:#ffffff;
+    font-family: Raleway;
+    text-align: center;
 }
 
 .cambiar-estado {
@@ -75,10 +113,7 @@ padding: 0.5em 1em;
 border: none;
 cursor: pointer;
 }
-body {
-background-image: url("imagenes/background_login_restaurante.jpg");
-background-size: cover;
-}
+
 .form-container {
 width: 500px;
 margin: 0 auto;
@@ -102,7 +137,7 @@ clase_1: h2, clase_2 y 3: p
 /* esto solo aplica a todos los que estan dentro de "div" */
 div > .clase_2{
     font-size: 25px;
-    font-family: 'Macondo', cursive;
+    font-family: 'Raleway';
     color: rgb(108, 230, 134);/*color de texto*/
     text-shadow: 1px 1px 1px black;/*Sombra al texto*/
 }
@@ -113,7 +148,7 @@ h2{
 }
 .clase_3{
     font-size: 25px;
-    font-family: 'Macondo', cursive;
+    font-family: Raleway
     
 }
 .clase_3, .clase_0, h1{
@@ -149,23 +184,15 @@ body {
     mejor conocido como espacios en blaco que rodea la tabla*/
   } 
 /* typography */
-  thead th {
-    font-family: 'Macondo', cursive;
-  }
   /* th=encabezado y td=cuerpo
   letter-spacing=espacio entre letras de una palabra.
   arbol != a r b o l*/
-  th {
-    letter-spacing: 2px;
-  }
-  
+
   td {
     letter-spacing: 1px;
   }
   /*Centrar el texto tanto el encabezado como el cuerpo*/
-  tbody td {
-    text-align: center;
-  }
+
   /*tfoot es un encabezado pero en la parte inferior de la tabla*/
   /*
   tfoot th {
@@ -186,15 +213,9 @@ body {
   }
   /*Bordado a la tabla*/
   tr{
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
   }
-  /*Tipo y tamaño de la letra del cuerpo de la tabla*/
-  td{
-    font-size: 25px;
-    color:rgb(248, 179, 31);
-    font-family: 'Macondo', cursive;
-    text-shadow: 1px 1px 1px black;/*Sombra al texto*/
-  }
+
   /*Centrar las cajas donde se ingresa el texto*/ /* Centrar todo-*/
   .centrar{
     text-align: center; /*Texto centrado*/
