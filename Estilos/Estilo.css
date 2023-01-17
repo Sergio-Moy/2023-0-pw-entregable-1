@@ -124,25 +124,18 @@ body {
     background-attachment: fixed;matiene fija la imagen. Cuando baje en la pagina, no se vera blanco
     */
 }
-/*Poner una diseño a la tabla
-#Diseño_tabla{
-
-}*/
 
 /* spacing */
 
-table {
+  table {
     table-layout: fixed;/*dar a las columnas un tamaño segun el 
     ancho de sus celdas*/
     width: 100%;/*La tabla intentara ajustar su contenido (letras)
     con el espacio rectangular en donde fue ubicado.*/
     border-collapse: collapse;/*Quitar los bordes de la tabla,
     mejor conocido como espacios en blaco que rodea la tabla*/
-    
   } 
 /* typography */
-  
-  
   thead th {
     font-family: 'Macondo', cursive;
   }
@@ -189,17 +182,30 @@ table {
     font-family: 'Macondo', cursive;
     text-shadow: 1px 1px 1px black;/*Sombra al texto*/
   }
-  /*Centrar las cajas donde se ingresa el texto*/
+  /*Centrar las cajas donde se ingresa el texto*/ /* Centrar todo-*/
   .centrar{
-    text-align: center;
-
+    text-align: center; /*Texto centrado*/
+    display: table; /*Tambien sirve pa centrar tabla*/
+    margin: auto; /*tabla centrada dentro de la página*/
   }
   .centered{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+#contenedorcentrado {
   
+  
+  background-color: #c4aae7;
+  
+  /*opacity: 0.50;
+  filter: alpha(opacity=50);*/
+  
+  
+  
+  padding: 30px;
+  box-sizing: border-box;
+}
 
 
 
