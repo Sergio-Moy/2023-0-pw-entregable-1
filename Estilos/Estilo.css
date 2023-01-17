@@ -112,7 +112,7 @@ body {
     background-image: url("/imagenes/fondo-alimentos-dibujados-mano-pasta_23-2148369856.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;    
+    background-position: center center;   
     background-size: cover;/*para que la imgen cubra toda la pantalla*/
     /*la linea de abajo se explica en las siguientes lineas
     background-image: url(fondo-comida-dibujado-mano_52683-2954.webp) no-repeat center center fixed;*/
@@ -193,6 +193,11 @@ table {
   .centrar{
     text-align: center;
 
+  }
+  .centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 
