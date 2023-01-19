@@ -20,13 +20,13 @@ p{
 
 button{
   color: #ffffff;
-  background-color: #3c268b;
+  background-color: rgb(60, 38, 139);
   font-family: Raleway;
 }
 
 body button{
   color: #ffffff;
-  background-color: #3c268b;
+  background-color: rgba(48, 26, 126, 0.5);
   font-family: Raleway;
 }
 
@@ -79,6 +79,7 @@ h2 a:active {
 margin: auto;
 background-color: black;
 }
+/*Centrar tabla*/
 table {
 width: 100%;
 border-collapse: collapse;
@@ -101,12 +102,7 @@ img{
   border-radius: 5%;
 }
 
-th {
-background-color: #3c268b88;
-color: #ffffff;
-text-align: center;
-font-family: Raleway;
-}
+
 
 td {
     background-color: #3c268b88;
@@ -117,12 +113,12 @@ td {
 }
 
 .cambiar-estado {
-background-color:#3c268b;
-color: white;
-border: none;
-padding: 8px 12px;
-cursor: pointer;
-}
+  background-color:#3c268b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  }
 input[type="text"] {
 padding: 0.5em;
 margin-bottom: 1em;
@@ -217,23 +213,25 @@ body {
 }
 
 /* spacing */
-
+  /*
   table {
-    table-layout: fixed;/*dar a las columnas un tamaño segun el 
-    ancho de sus celdas*/
-    width: 100%;/*La tabla intentara ajustar su contenido (letras)
-    con el espacio rectangular en donde fue ubicado.*/
-    border-collapse: collapse;/*Quitar los bordes de la tabla,
-    mejor conocido como espacios en blaco que rodea la tabla*/
-  } 
+    table-layout: fixed; dar a las columnas un tamaño segun el 
+    ancho de sus celdas 
+    width: 100%; La tabla intentara ajustar su contenido (letras)
+    con el espacio rectangular en donde fue ubicado.
+    border-collapse: collapse; Quitar los bordes de la tabla,
+    mejor conocido como espacios en blaco que rodea la tabla
+  } */
+  
 /* typography */
-  /* th=encabezado y td=cuerpo
+  /*th=encabezado y td=cuerpo
   letter-spacing=espacio entre letras de una palabra.
-  arbol != a r b o l*/
-
+  arbol != a r b o l
+  
   td {
     letter-spacing: 1px;
   }
+  
   /*Centrar el texto tanto el encabezado como el cuerpo*/
 
   /*tfoot es un encabezado pero en la parte inferior de la tabla*/
@@ -243,22 +241,19 @@ body {
   }
   */
   /*Diseño*/
-  thead {
+  .cabecera {
     /*imagen gif*/
     background: url("/imagenes/f8b0d8ba8a7fd9a480f88e9cd347ae6e.gif");
     color: white;/*color de texto*/
     text-shadow: 1px 1px 1px black;/*Sombra al texto*/
   }
+
   /*Sombra que se le agrega a la imagen*/
-  thead th {
+  .columna {
     background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
     
   }
-  /*Bordado a la tabla*/
-  tr{
-    border: 2px solid rgb(0, 0, 0);
-  }
-
+  
   /*Centrar las cajas donde se ingresa el texto*/ /* Centrar todo-*/
   .centrar{
     text-align: center; /*Texto centrado*/
@@ -281,6 +276,20 @@ body {
   
   
   padding: 30px;
+  box-sizing: border-box;
+}
+
+#contenedorcentrado2 {
+
+  background-color: #c4aae7;
+  
+  /*opacity: 0.50;
+  filter: alpha(opacity=50);*/
+  padding-left: 14px;
+  padding-right: 14px;
+  
+  width: 200px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
