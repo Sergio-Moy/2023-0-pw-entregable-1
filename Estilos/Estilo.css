@@ -218,13 +218,14 @@ body {
 
 /* spacing */
 
-  table {
+  table .cm{
     table-layout: fixed;/*dar a las columnas un tamaño segun el 
     ancho de sus celdas*/
     width: 100%;/*La tabla intentara ajustar su contenido (letras)
     con el espacio rectangular en donde fue ubicado.*/
     border-collapse: collapse;/*Quitar los bordes de la tabla,
     mejor conocido como espacios en blaco que rodea la tabla*/
+
   } 
 /* typography */
   /* th=encabezado y td=cuerpo
@@ -256,7 +257,10 @@ body {
   }
   /*Bordado a la tabla*/
   tr{
-    border: 2px solid rgb(0, 0, 0);
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px
+
   }
 
   /*Centrar las cajas donde se ingresa el texto*/ /* Centrar todo-*/
@@ -309,10 +313,36 @@ body {
   color: #ffffff
 }
 
+.col-md-3 {
+  padding: 15px;
+  margin-top: 10px;
+  margin-left:70px;
 
 
+}
 
+.product-container{
+  text-align: center;
 
+}
+
+.page-nav{
+  color: #ffffff;
+  font-family: Raleway;
+}
+
+#dona {
+  margin-right: 30%;
+  margin-left: 30%
+}
+
+.boton1 {
+   font-size: 20px;
+   margin-bottom: 10%
+}
+.titulo{
+  padding-top: 2%;
+}
 
 
 
