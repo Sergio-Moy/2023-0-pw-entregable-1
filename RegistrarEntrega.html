@@ -7,6 +7,9 @@
     <title>Registrar Entrega</title>
     <link href="/Estilos/Estilo.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/Estilos/bootstrap.css">
+    <!--Diseño de letras en la tabla-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
   <div class="topnav">
@@ -18,19 +21,22 @@
     <a href="MiCarrito.html" class="col-md-2">Carrito</a>
 </div>
 <br>
+<br>
     <form>
         <label for="codigo">Ingresa el código de verificación:</label>
         <input type="text" id="codigo" name="codigo">
         <input type="submit" value="Verificar">
       </form>
       <table>
-        <tr>
-          <th>Codigo de verificacion</th>
-          <th>Nombre del cliente</th>
-          <th>Producto</th>
-          <th>Cantidad</th>
-          <th>Estado</th>
-        </tr>
+        <thead class="cabecera"><!--Cabecera-->
+          <tr>
+            <th class="columna">Codigo de verificacion</th>
+            <th class="columna">Nombre del cliente</th>
+            <th class="columna">Producto</th>
+            <th class="columna">Cantidad</th>
+            <th class="columna">Estado</th>
+          </tr>
+        </thead>
         <tr>
           <td>1</td>
           <td>Juan Pérez</td>
