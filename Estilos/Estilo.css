@@ -49,6 +49,7 @@ body h2 {
 }
 
 h2 a{
+  font-size: 80%;
   font-family: Raleway;
   color: #ffffff;
 }
@@ -288,8 +289,7 @@ body {
   background-color: #3c268b;
   color: #ffffff;
   text-align: center;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 15px;
   font-family: Raleway;
   font-size: 15px;
 }
