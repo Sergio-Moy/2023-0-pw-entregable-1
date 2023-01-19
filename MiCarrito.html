@@ -7,6 +7,9 @@
     <title>Mi Carrito</title>
     <link href="/Estilos/Estilo.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/Estilos/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 <body>
     <div class="topnav">
@@ -19,13 +22,15 @@
     </div>
     <br>
     <h1>Mi Carrito</h1>
-    <table>
-        <tr>
-            <th>Restaurante</th>
-            <th>Producto</th>
-            <th>Precio</th>
-            <th>Cantidad</th>
-        </tr>
+    <table >
+        <thead class="cabecera"><!--Cabecera-->
+            <tr>
+                <th class="columna">Restaurante</th>
+                <th class="columna">Producto</th>
+                <th class="columna">Precio</th>
+                <th class="columna">Cantidad</th>
+            </tr>
+        </thead>
         <tr>
             <td>Bembos</td>
             <td>Combo Cheese</td>
