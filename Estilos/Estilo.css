@@ -201,6 +201,7 @@ h2{
 /*Imagen a la derecha de todo*/
 .alinear_der{
     text-align: right;
+    padding-right: 10%;
         
 }
 
@@ -365,9 +366,60 @@ HEAD
 .titulo{
   padding-top: 2%;
 }
+/*
+Absolute toma como referencia 
+Elemento posicionado mas cercano, no static "no estatico"
+Este atributo no se puede aplicar con su hermano que seria 
+terjetaCarrusel, por ende se usa del padre. En conclusion
+itemCarrusel: relative
+flechasCarrusel: absolute
+Provocando que "tarjetaCarrusel" sea el que esta debajo de 
+flechasCarrusel
+*/
+.itemCarrusel{
+  height: 100%; /*Para que coincida con
+  tamaño del contenedor*/
+  position: relative;
+}
+.tarjetaCarrusel{
+  height: 100%;
+}
+.flechasCarrusel{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*El contenedorItemsCarrusel tiene el mismo
+  tamaño que el primer Item carrusel, con overflow: hidden
+  podemos recortar todos los demas itemCarrusel que no estan
+  dentro de este.*/
+
+.contenedorItemsCarrusel{
+  height: 350px;/*Para fijar el tamaño del contenedor*/
+  overflow: hidden;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
+a{
+  text-decoration: none;
+}
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
 
 
 

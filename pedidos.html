@@ -23,26 +23,35 @@
         <a href="MiCarrito.html" class="col-md-2">Carrito</a>
     </div>
     <br>
+    <br>
     <h1>Pedidos Realizados</h1>
     <br>
     <!--<img src="/imagenes/bistec-a-lo-pobre_800x534.jpg" width="230" height="150">-->
     <div>
     <table>
         <thead class="cabecera"><!--Cabecera-->
-            <tr>                 <!--fila-->
-                <th class="columna">Codigo de Pedido</th>  <!--columna-->
-                <th class="columna">Producto</th>
-                <th class="columna">Cantidad</th>
-                <th class="columna">Producto</th>
-                <th class="columna">Estado</th>
-                <th class="columna">Total Precio</th>
+            <tr>                 <!--fila-->                
+                    <th class="columna">Codigo de Pedido</th>  <!--columna-->
+                    <th class="columna">Producto</th>
+                    <th class="columna">Cantidad</th>
+                    <th class="columna">Producto</th>
+                    <th class="columna">Estado</th>
+                    <th class="columna">Total Precio</th>
             </tr>
         </thead>
         <tbody><!--Valores-->
             <tr>
                 <td>20201166</td>
-                <td>Ceviche</td>
-                <td>1</td>
+                <td>
+                    <ol type="I">
+                        <li>Cebiche</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="I">
+                        <li>1</li>
+                    </ol>
+                </td>
                 <td>
                     <br>
                     <div class="centrar">
@@ -56,12 +65,16 @@
             <tr>
                 <td>20201177</td>
                 <td>
-                    <p>Bisteck</p>
-                    <p>Inca Cola</p>
+                    <ol type="I">
+                        <li>Bisteck</li>
+                        <li>Inca Cola</li>
+                    </ol>
                 </td>
                 <td>
-                    <p>1</p>
-                    <p>2</p>
+                    <ol type="I">
+                        <li>1</li>
+                        <li>2</li>
+                    </ol>
                 </td>
                 <td>
                     <br>                    
@@ -74,8 +87,24 @@
                 <td>$41.50</td>
             </tr>
         </tbody>
+        
         <!--
         <tfoot></tfoot>
+        .slider-pager {
+            position: absolute;
+            left: 70px;
+            bottom: 0;
+            z-index: 99;
+        }
+
+        <div class="slider-pager">
+            <ul>
+                <li class="prev">Prev</li>
+                <li class="next">Next</li>
+                <li class="pause">Pause</li>
+                <li class="resume">Resume</li>
+            </ul>
+        </div>
         -->
     </table>
     </div>
