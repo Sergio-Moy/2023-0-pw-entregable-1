@@ -174,8 +174,8 @@ Indice:
 clase_0: hipervinculos
 clase_1: h2, clase_2 y 3: p
 */
-/* esto solo aplica a todos los que estan dentro de "div" */
-div > .clase_2{
+
+.clase_2{
     font-size: 25px;
     font-family: 'Raleway';
     color: rgb(108, 230, 134);/*color de texto*/

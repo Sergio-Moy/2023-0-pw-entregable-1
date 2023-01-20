@@ -18,13 +18,42 @@
         <a href="MiCarrito.html" class="col-md-2">Carrito</a>
     </div>
     <br>
-    <a href="/platos.html">Atras</a>
+    <a href="/NuevaCategoria.html">Atras</a>
     <h1>Agregar Plato</h1>
     <form>
+        <br>
         <div class="centrar">
-            <input type="text" />
-            <input type="submit" value="OK"><!-- peticion http, enviar info al servidor -->
-            </div>
+            <input
+            class="form-control bg-light"
+            type="text"
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="centrar">
+            <input
+            class="form-control bg-light"
+            type="text"
+            placeholder="Precio"
+          />
+        </div>
+        <div class="centrar">
+            <!--El atributo method que indica la forma de envío de los datos al servidor (GET o POST).
+                El atributo enctype. El tipo de encriptación de la información. Por defecto 
+                x-www-urlencoded.
+                La configuración multipart/formdata indica que la información del formulario se 
+                enviará por paquetes a través de la red.-->
+            <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+                <!--Esta etiqueta input se autoconfigurará para subir ficheros tan solo indicando 
+                    file en el atributo type. Los navegadores identificarán inmediatamente este 
+                    atributo y mostrarán gráficamente un botón para seleccionar archivos del sistema.
+                -->
+                <input type="file" name="imagen1" />
+            </form>
+        </div>
+        <br>
+        <div class="centrar">
+            <input type="submit" name="subir-plato" value="OK"><!-- peticion http, enviar info al servidor -->
+        </div>
     </form>
 </body>
 </html>
