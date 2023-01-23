@@ -167,6 +167,9 @@ color: #4f4f4f;
 background-color: #dddddd88;
 }
 
+.closed img {
+  filter: grayscale(100%);
+}
 
 
 /*
